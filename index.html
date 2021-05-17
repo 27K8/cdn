@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-<body>
-<meta charset="UTF-8">
-<style type="text/css">
-    body,html{width:100%;height:100%;background:#000;padding:0;margin:0;overflow-x:hidden;overflow-y:hidden}
-    *{margin:0;border:0;padding:0;text-decoration:none}
-    #dplayer{position:inherit}
-</style>
-<div id="dplayer"></div>
-<script src="https://cdn.jsdelivr.net/npm/cdnbye@latest/dist/hlsjs-p2p-engine.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@0.14.13"></script>
-<script src="https://cdn.jsdelivr.net/npm/cbplayer2@latest"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="referrer" content="no-referrer">
+    <title>7080西瓜视频-xgplayer</title>
+    <style type="text/css">
+      html, body {width:100%;height:100%;margin:auto;overflow: hidden;}
+    </style>
+  </head>
+  <body>
+    <div id="mse"></div>
+<script src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer/2.9.6/browser/index.js" charset="utf-8"></script>
+    <script src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer-hls.js/2.2.2/browser/index.js" charset="utf-8"></script>
+	
 <script type="text/javascript">
 
  function GetQueryString(name)
@@ -26,25 +29,27 @@ var lianjie = GetQueryString("url");
 //var lianjie ="<?php echo $_GET["q"]; ?>";
 </script>
 <script>
-    var dp = new CBPlayer({
-        container: document.getElementById('dplayer'),
-        autoplay: true,
-         live: true,
-        playState: true,   // 记忆播放
-        video: {
-            url: lianjie,
+ let player = new HlsJsPlayer({
+		"id": "mse",
+		"url": lianjie,
+       poster: "//s2.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/poster.jpg",
+        playsinline: true,
+        thumbnail: {
+            pic_num: 44,
+            width: 160,
+            height: 90,
+            col: 10,
+            row: 10,
+            urls: ['//s3.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo-thumbnail.jpg'],
         },
-        pluginOptions: {
-            hls: {
-                debug: false,
-                p2pConfig: {
-                    logLevel: false,
-                    // live: true,
-                    // Other p2pConfig options provided by CDNBye
-                }
-            }
-        },
-    });
-</script>
-</body>
+		"whitelist": [""],
+		"autoplay": true,
+		"x5-video-player-type": "h5",
+		"x5-video-player-fullscreen": "true",
+		"x5-video-orientation": "landscape",
+   "height": window.innerHeight,
+ "width": window.innerWidth,
+      });
+          </script>
+  </body>
 </html>
