@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>ckplayer</title>
+		
+		<style type="text/css">body{margin:0;padding:0px;font-family:"Microsoft YaHei",YaHei,"微软雅黑",SimHei,"黑体";font-size:14px}</style>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script type="text/javascript" src="../ckplayer/ckplayer.js"></script>
+	</head>
+
+	<body>
+		<div id="video" style="width: 100%; height: 400px;"></div>
+		
+		<script type="text/javascript">
+			var data = { a: 1 }
+			var newCkplayer=new Vue({
+				el:'#video',
+				methods:{
+					loadCkplayer(){
+						var videoObject = {
+							container: '#video', //容器的ID或className
+							variable: 'player',//播放函数名称
+							poster:'../material/poster.jpg',//封面图片
+							loaded:'loadedHandler',
+							flashplayer:true,
+							debug:true,
+							video: [//视频地址列表形式
+								['http://ckplayer-video-sample.oss-cn-shanghai.aliyuncs.com/sample-mp4/05cacb4e02f9d9e.mp4', 'video/mp4', '中文标清', 0],
+								['http://ckplayer-video-sample.oss-cn-shanghai.aliyuncs.com/sample-mp4/d0897b4e9ddd9a5.mp4', 'video/mp4', '中文高清', 0],
+								['http://ckplayer-video-sample.oss-cn-shanghai.aliyuncs.com/sample-mp4/eb048d7839442d0.mp4', 'video/mp4', '英文高清', 10],
+								['http://ckplayer-video-sample.oss-cn-shanghai.aliyuncs.com/sample-mp4/d30e02a5626c066.mp4', 'video/mp4', '英文超清', 0],
+							]
+						};
+						window.player = new ckplayer(videoObject);
+						function fullHandler(){//h5状态下会调用该函数监听全屏切换
+							window.fullHandler();
+						}
+						window.fullHandler=function(){//flashplayer状态下会调用该函数监听全屏切换
+							console.log('已监听到全屏切换状态');
+						};
+						function timeHandler(time){//h5状态下会调用该函数监听当前播放时间
+							window.timeHandler(time);
+						}
+						window.timeHandler=function(time){//flashplayer状态下会调用该函数监听当前播放时间
+							console.log('当前播放时间：'+time);
+							console.log(window.player.getMetaDate());
+						};
+						function netStatusHandler(state){//h5状态下会调用该函数监听
+							window.netStatusHandler(state);
+						}
+						window.netStatusHandler=function(state){//flashplayer状态下会调用该函数
+							console.log('当前流状态：',state);
+						};
+						window.loadedHandler=function(){
+							console.log('已正确监听到播放器加载,loadedHandler');
+							console.log(window.player);
+							window.player.addListener('full',fullHandler);
+							window.player.addListener('time',timeHandler);
+							window.player.addListener('netStatus',netStatusHandler);
+						}
+					}
+				}
+			});
+			newCkplayer.loadCkplayer();
+		</script>
+	</body>
+
+</html>
