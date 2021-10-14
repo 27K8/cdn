@@ -4,52 +4,14 @@
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
     <meta name="referrer" content="no-referrer">
-    <title>7080西瓜视频-xgplayer</title>
+    <title>应知应会考试学习</title>
     <style type="text/css">
       html, body {width:100%;height:100%;margin:auto;overflow: hidden;}
     </style>
   </head>
   <body>
-    <div id="mse"></div>
-<script src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer/2.9.6/browser/index.js" charset="utf-8"></script>
-    <script src="//sf1-ttcdn-tos.pstatp.com/obj/unpkg/xgplayer-hls.js/2.2.2/browser/index.js" charset="utf-8"></script>
-	
-<script type="text/javascript">
-
- function GetQueryString(name)
-   {
-        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-        var r = window.location.search.substr(1).match(reg);
-        if(r!=null)return  decodeURIComponent(r[2]); return null;
- 
-   }
-
-
-var lianjie = GetQueryString("url");
-//var lianjie ="<?php echo $_GET["q"]; ?>";
-</script>
-<script>
- let player = new HlsJsPlayer({
-		"id": "mse",
-		"url": lianjie,
-       poster: "//s2.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/poster.jpg",
-        playsinline: true,
-        thumbnail: {
-            pic_num: 44,
-            width: 160,
-            height: 90,
-            col: 10,
-            row: 10,
-            urls: ['//s3.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo-thumbnail.jpg'],
-        },
-		"whitelist": [""],
-		"autoplay": true,
-		"x5-video-player-type": "h5",
-		"x5-video-player-fullscreen": "true",
-		"x5-video-orientation": "landscape",
-   "height": window.innerHeight,
- "width": window.innerWidth,
-      });
-          </script>
+   <div class="divcss5">
+<iframe src="http://ce.7080.wang:666/kao/" id="player" width="100%" height="100%" allowfullscreen="true" frameborder="no" allowtransparency="true" scrolling="no"></iframe>
+</div>
   </body>
 </html>
