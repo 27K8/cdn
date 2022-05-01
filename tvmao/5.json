@@ -200,11 +200,22 @@
             "type": 0,
             "url": "https://jx.zui.cm/?url="
             },
-            {
-                "name": "干饭",
+{
+                "name": "BL",
                 "type": 0,
-                "url": "https://ldy.jx.cn/wp-api/ifr.php?vid="
+                "url": "https://svip.bljiex.cc/?url="
                 },
+                {
+                    "name": "奈飞迷",
+                    "type": 0,
+                    "url": "https://qpsvip.naifeimi.com/?url="
+                    },
+                    {
+                        "name": "麒麟",
+                        "type": 0,
+                        "url": "https://tv.qilin.best/jx/?url="
+                        },
+
     {
         "name": "parwix",
         "type": 0,
