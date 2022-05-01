@@ -182,32 +182,32 @@
 },
 {
     "name": "公主",
-    "type": 1,
+    "type": 0,
     "url": "https://jx.blbo.cc:4433/?url="
     },
 {
     "name": "全民解析",
-    "type": 1,
+    "type": 0,
     "url": "https://jx.quanmingjiexi.com/?url="
     },
     {
         "name": "虾米",
-        "type": 1,
+        "type": 0,
         "url": "https://jx.xmflv.com/?url="
         },
         {
             "name": "乐多",
-            "type": 1,
+            "type": 0,
             "url": "https://jx.zui.cm/?url="
             },
             {
                 "name": "干饭",
-                "type": 1,
+                "type": 0,
                 "url": "https://ldy.jx.cn/wp-api/ifr.php?vid="
                 },
     {
         "name": "parwix",
-        "type": 1,
+        "type": 0,
         "url": "https://jx.parwix.com:4433/player/?url="
         }
 ],
