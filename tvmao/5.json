@@ -87,16 +87,6 @@
 "ext": "https://kao.7080.wang/tvmao/xpath/tvci.json"
 },
 {
-"key": "csp_xpath_egg",
-"name": "蛋蛋赞(XPath)",
-"type": 3,
-"api": "csp_XPath",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 0,
-"ext": "https://kao.7080.wang/tvmao/xpath/egg.json"
-},
-{
 "key": "csp_xpath_dm84",
 "name": "动漫巴士(XPath)",
 "type": 3,
