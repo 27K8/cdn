@@ -1,8 +1,7 @@
 {
   "ua": "",
-  "homeUrl": "https://www.hdmoli.com/",
-
-  "homeVodNode": "//body/div[@class='container']//div[@class='myui-vodlist__box']/a",
+  "homeUrl": "https://www.hdmoli.com",
+  "homeVodNode": "//body/div[@class='myui-panel_bd clearfix']//div[@class='myui-vodlist__box']/a",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
   "homeVodIdR": "/(.+).html",
