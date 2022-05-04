@@ -1,66 +1,30 @@
-
+###
 {
     "sites": [
-    {"key": "csp_77","name": "七七","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1},
-    {
-    "key": "csp_Buka",
-    "name": "真不卡(爬虫)",
-    "type": 3,
-    "api": "csp_Buka",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-    },
-{
- "key": "csp_Auete",
-"name": "Auete(爬虫)",
- "type": 3,
- "api": "csp_Auete",
- "searchable": 1,
- "quickSearch": 0,
-"filterable": 1
-},
-{
-        "key": "csp_Cokemv",
-        "name": "Cokemv(爬虫)",
-        "type": 3,
-        "api": "csp_Cokemv",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 1
-},
-{
-        "key": "csp_Enlienli",
-        "name": "嗯哩嗯哩(爬虫)",
-        "type": 3,
-        "api": "csp_Enlienli",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 1
-},
+    {"key": "csp_77","name": "七七(爬虫)","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "csp_Buka","name": "真不卡(爬虫)","type": 3,"api": "csp_Buka","searchable": 1,"quickSearch": 0,"filterable": 1},
+    {"key": "csp_Auete","name": "Auete(爬虫)","type": 3,"api": "csp_Auete","searchable": 1,"quickSearch": 0,"filterable": 1},
+    {"key": "csp_Cokemv","name": "Cokemv(爬虫)","type": 3,"api": "csp_Cokemv","searchable": 1,"quickSearch": 0,"filterable": 1},
+    {"key": "csp_Enlienli","name": "嗯哩嗯哩(爬虫)","type": 3,"api": "csp_Enlienli","searchable": 1, "quickSearch": 0,"filterable": 1},
+
 {"key":"csp_appysv2_天空V2","name":"天空V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.tkys.tv/xgapp.php/v2/"},
 {"key":"csp_appysv2_天空","name":"天空(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tkys.tv/xgapp.php/v1/"},
 {"key":"csp_appysv2_迪迪","name":"迪迪(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dd88.icu:6080/xgapp.php/v2/"},
 {"key":"csp_appysv2_美剧虫","name":"美剧虫(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://meijuchong.com/api.php/v1.vod"},
+
 {"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lezhutv.json"},
 {"key":"csp_xpath_lib","name":"LIBVIO(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lib.json"},
 {"key":"csp_xpath_ddg","name":"达达龟(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/dadagui.json"},
 {"key":"csp_xpath_jbb","name":"剧白白(XP)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/jubaibai.json"},
 {"key":"csp_xpath_6d","name":"六度TV(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/6d.json"},
-{"key":"csp_hdmoli","name":"hdmoli(XP)","type":3,"api":"csp_XPathHdmoli","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/hdmoli.json"},
+{"key":"csp_xpath_yanetflix","name":"鸭奈飞(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/yanet.json"},
 {"key":"csp_xpath_4kpianku","name":"4k片库网(XPF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/4kpianku.json"},
-{"key":"csp_xpath_dandanzan10","name":"蛋蛋赞(电影)(XPF)","type":3,"api":"csp_XPathFilter","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/dandanzan10.json"},
-//{"key":"csp_gaze","name":"注视(XP)","type":3,"api":"csp_XPathGaze","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/gaze.json"},
-{
-"key": "csp_xpath_94sm",
-"name": "94神马(XPath)",
-"type": 3,
-"api": "csp_XPath",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 0,
-"ext": "https://kao.7080.wang/tvmao/xpath/94sm.json"
-},
+{"key":"csp_xpath_juhuang","name":"剧荒TV(XPMac)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/juhuang.json"},
+{"key":"csp_xpath_348z","name":"348电影(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/348z.json"},
+{"key":"csp_xpath_xqmi","name":"小强迷(XP)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/xqmi.json"},
+{"key":"csp_xpath_zzzlike","name":"周末电影(XP)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/zzzlike.json"},
+{"key":"csp_xpath_aidi","name":"爱迪影视(XPMac)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/aidi.json"},
+{"key": "csp_xpath_94sm","name": "94神马(XPath)","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://kao.7080.wang/tvmao/xpath/94sm.json"},
 {
 "key": "csp_xpath_age",
 "name": "AGE动漫(XPath)",
@@ -200,6 +164,11 @@
 "type": 0,
  "url": "https://svip.bljiex.cc/?url="
 },
+{
+  "name": "电影888",
+  "type": 0,
+   "url": "https://dy8889.tv/dmplay/?url="
+  },
  {
 "name": "奈飞迷",
  "type": 0,
@@ -221,11 +190,7 @@
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
 {"name":"duoduozy2","type":1,"url":"https://a.dxzj88.com/jxjx/dd.php?url=","ext":{"flag":["duoduozy"]}},
 {"name":"zijian","type":0,"url":"https://jx.daiguaji.com/?url=","ext":{"flag":["zijian"]}},
-{
-        "name": "parwix",
-        "type": 0,
-        "url": "https://jx.parwix.com:4433/player/?url="
-        }
+{"name": "parwix","type": 0,"url": "https://jx.parwix.com:4433/player/?url="}
 ],
 "flags": [
 "youku",
