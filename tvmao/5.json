@@ -139,6 +139,11 @@
 "url": "https://json.pangujiexi.com:12345/json.php?url="
 },
 {
+"name": "钟特影视",
+"type": 1,
+"url": "https://jx2.7csn.cn/lx.php/?url="
+},"ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视","RongXing","RX"]}
+{
     "name": "公主",
     "type": 0,
     "url": "https://jx.blbo.cc:4433/?url="
