@@ -51,6 +51,7 @@
 {"key":"293影视","name":"293影视(优)","type":1,"api":"http://293x.yhzy.xyz/mv/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"影图","name":"影图(聚)","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"猪猪影院","name":"猪猪影院(聚)","type":1,"api":"https://www.2zdyy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+{"key":"77影视","name":"77影视","type":1,"api":"http://api.kunyu77.com/api.php","searchable":1,"quickSearch":1},
 {"key": "39影视", "name": "39影视","type": 1,"api": "https://www.39kan.com/api.php/provide/vod/"}
 ],
 "lives": [
