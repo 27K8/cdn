@@ -51,7 +51,6 @@
 {"key":"293影视","name":"293影视(优)","type":1,"api":"http://293x.yhzy.xyz/mv/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"影图","name":"影图(聚)","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"猪猪影院","name":"猪猪影院(聚)","type":1,"api":"https://www.2zdyy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"77影视","name":"77影视","type":1,"api":"http://api.kunyu77.com/api.php","searchable":1,"quickSearch":1},
 {"key": "39影视", "name": "39影视","type": 1,"api": "https://www.39kan.com/api.php/provide/vod/"}
 ],
 "lives": [
@@ -114,26 +113,10 @@
 {"name":"leduotv","type":1,"url":"https://api.leduotv.com/wp-api/getvodurl.php?vid=","ext":{"flag":["leduo"]}},
 {"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url=","ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视"]}},
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
-{
-    "name": "公主",
-    "type": 0,
-    "url": "https://jx.blbo.cc:4433/?url="
-    },
-{
-    "name": "全民解析",
-    "type": 0,
-    "url": "https://jx.quanmingjiexi.com/?url="
-    },
-    {
-        "name": "虾米",
-        "type": 0,
-        "url": "https://jx.xmflv.com/?url="
-        },
-        {
-            "name": "乐多",
-            "type": 0,
-            "url": "https://jx.zui.cm/?url="
-            },
+{"name": "公主","type": 0, "url": "https://jx.blbo.cc:4433/?url="},
+{"name": "全民解析","type": 0,"url": "https://jx.quanmingjiexi.com/?url=" },
+{"name": "虾米", "type": 0, "url": "https://jx.xmflv.com/?url="  },
+ { "name": "乐多", "type": 0,"url": "https://jx.zui.cm/?url=" },
 {
 "name": "BL",
 "type": 0,
@@ -160,10 +143,12 @@
 "url": "https://tv.qilin.best/jx/?url="
 },
 {"name":"zijian","type":0,"url":"https://jx.daiguaji.com/?url=","ext":{"flag":["zijian"]}},
+{"name":"ltnb02","type":0,"url":"https://jx.zui.cm/?url=","ext":{"flag":["ltnb","xueren"]}},
+{"name":"xuerenweb2","type":0,"url":"https://xrm3u8.qd234.cn/?url=","ext":{"flag":["xueren"]}},
 {"name": "parwix","type": 0,"url": "https://jx.parwix.com:4433/player/?url="}
 ],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili",
-         "renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy"],
+         "renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy","xueren"],
 "spider": "https://jar1234.coding.net/p/m/d/m/git/raw/master/custom_spider_0330.jar;md5;01a4ac9109a0602124cee4feddc1971e",
 "ijk": [
 {
