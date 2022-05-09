@@ -94,13 +94,13 @@
             "pic":"https://imgpub.chuangkit.com/materials/2021/12/18/c52dabca-ada7-479a-8e32-fd32efe1d708?x-oss-process=image/resize,w_200/format,webp",
             "type":"webPlug",
             "ads":"",
-            "webUrl":"https://www.9ehao.com/",
+            "webUrl":"https://www.9eguoyu.com/",
             "webOpen":false,
             "search":false,
             "click":true,
             "webPlus":{
-                "search_url":"https://www.9ehao.com/vod/search.html?wd={kw}&submit=",
-                "nav_url":"https://www.9ehao.com/vodshow/navCate/page/navPage",
+                "search_url":"https://www.9eguoyu.com/vod/search.html?wd={kw}&submit=",
+                "nav_url":"https://www.9eguoyu.com/vodshow/navCate/page/navPage",
                 "web_name":"9亿看看",
                 "search":false,
                 "navHtml":{
@@ -277,7 +277,7 @@
             }
         },
 		{
-      "name": "大师兄影视(规则)",
+      "name": "555影视(规则)",
       "pic": "https://imgpub.chuangkit.com/materials/2021/12/02/ab32ab73-4475-4be1-ab6e-4b3ff641f7fb?x-oss-process=image/resize,w_200/format,webp",
       "type": "webPlug",
       "ads": "",
@@ -287,7 +287,7 @@
       "webPlus": {
         "search_url": "https://www.555dy6.com/index.php/vod/search.html?wd={kw}",
         "nav_url": "https://www.555dy6.com/vodshow/navCate--------navPage---.html",
-        "web_name": "大师兄影视",
+        "web_name": "555",
 		"search":false,
         "navHtml": {
           "name": [
@@ -365,7 +365,7 @@
       }
     },
 	{
-      "name": "555电影(规则)",
+      "name": "大师兄(规则)",
       "pic": "https://imgpub.chuangkit.com/materials/2021/12/02/72ba3149-cf88-4756-ac34-f3d51844118c?x-oss-process=image/resize,w_200/format,webp",
       "type": "webPlug",
       "ads": "",
@@ -375,7 +375,7 @@
       "webPlus": {
         "search_url": "https://dsxys.com/sb/ke7nhZe3c1{kw}-.html",
         "nav_url": "https://dsxys.com/type/navCate-navPage.html",
-        "web_name": "555电影",
+        "web_name": "大师兄",
 		"search":false,
         "navHtml": {
           "name": [
@@ -463,7 +463,7 @@
       "webPlus": {
         "search_url": "",
         "nav_url": "https://www.tkys.tv/vodtype/navCate-navPage.html",
-        "web_name": "555电影",
+        "web_name": "天空电影",
 		"search":false,
         "navHtml": {
           "name": [
