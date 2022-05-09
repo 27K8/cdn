@@ -1,63 +1,87 @@
 
 {
     "data": [
-        {
+         {
             "id": 19,
-            "name": "自定义1",
+            "name": "7080",
             "ad": "no",
-            "url": "https://vip.parwix.com:4433/player/?url="
+            "url": "https://7080.wang/jx/index.html?url="
         },
         {
             "id": 19,
-            "name": "自定义2",
+            "name": "parwix",
+            "ad": "no",
+            "url": "https://vip.parwix.com:4433/player/?url="
+        },
+         {
+            "id": 19,
+            "name": "全民解析",
+            "ad": "no",
+            "url": "https://jx.quanmingjiexi.com/?url="
+        },
+        {
+            "id": 19,
+            "name": "BL解析",
+            "ad": "no",
+            "url": "https://svip.bljiex.cc/?url="
+        },
+        {
+            "id": 19,
+            "name": "QC解析",
+            "ad": "no",
+            "url": "https://bfq.qcsvip.com/dmplayer/?url="
+        },
+        {
+            "id": 19,
+            "name": "5G解析",
             "ad": "no",
             "url": "https://sb.5gseo.net/?url="
         },
         {
             "id": 19,
-            "name": "自定义3",
+            "name": "OK解析",
             "ad": "no",
             "url": "https://okjx.cc/?url="
         },
         {
             "id": 19,
-            "name": "自定义4",
+            "name": "aidouer",
             "ad": "no",
             "url": "https://jx.aidouer.net/?url="
         },
         {
             "id": 19,
-            "name": "自定义5",
+            "name": "blbo",
             "ad": "no",
             "url": "https://jx.blbo.cc:4433/?url="
         },
         {
             "id": 19,
-            "name": "自定义6",
+            "name": "ckmov",
             "ad": "no",
             "url": "https://www.ckmov.vip/api.php?url="
         },
         {
             "id": 19,
-            "name": "自定义7",
+            "name": "mtosz",
             "ad": "no",
             "url": "https://www.mtosz.com/m3u8.php?url="
         },
         {
             "id": 19,
-            "name": "自定义8",
+            "name": "盘古解析",
             "ad": "no",
             "url": "https://www.pangujiexi.cc/jiexi.php?url="
         },
         {
             "id": 19,
-            "name": "自定义9",
+            "name": "yitv解析",
             "ad": "no",
             "url": "https://jiexi.us/?url="
         },
         {
             "id": 19,
-            "name": "自定义10",
+            "name": "8090G",
             "ad": "no",
             "url": "https://www.8090g.cn/?url="
         }
