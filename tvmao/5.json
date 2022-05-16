@@ -78,21 +78,6 @@
 "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
 },
 {
-"name": "imin",
-"type": 1,
-"url": "https://app.iminna.com/jx/?url="
-},
-{
-"name": "xkys",
-"type": 1,
-"url": "https://aa.xkys.tv/json.php?url="
-},
-{
-"name": "51p",
-"type": 1,
-"url": "https://json.5lp.net/json.php?url="
-},
-{
 "name": "hfyrw",
 "type": 1,
 "url": "https://json.hfyrw.com/mao.go?url="
@@ -111,7 +96,6 @@
 {"name":"renrenmi2","type":1,"url":"https://a.dxzj88.com/jxrrm/jiami.php?url=","ext":{"flag":["renrenmi"]}},
 {"name":"renrenmi3","type":1,"url":"https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=","ext":{"flag":["renrenmi"]}},
 {"name":"250idc","type":1,"url":"https://v.2080kk.com/home/api?type=ys&uid=1308653&key=behnpstwxBCHJMQ029&url="},
-{"name":"灯塔","type":1,"url":"https://www.hwh.ink/home/api?type=ys&uid=1629168&key=fijnoqvyADEFJLP257&url="},
 {"name":"蓝影","type":1,"url":"https://vip.nicefamily.club/api/?key=W3VmSonE0VCYTNmNyV&url="},
 {"name":"4","type":1,"url":"https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]}},
 {"name":"8","type":1,"url":"https://app.iminna.com/jx/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]}},
