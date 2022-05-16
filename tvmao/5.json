@@ -78,9 +78,24 @@
 "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
 },
 {
-"name": "蓝光视频",
+"name": "imin",
 "type": 1,
-"url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+"url": "https://app.iminna.com/jx/?url="
+},
+{
+"name": "xkys",
+"type": 1,
+"url": "https://aa.xkys.tv/json.php?url="
+},
+{
+"name": "51p",
+"type": 1,
+"url": "https://json.5lp.net/json.php?url="
+},
+{
+"name": "hfyrw",
+"type": 1,
+"url": "https://json.hfyrw.com/mao.go?url="
 },
 {
 "name": "4K1",
@@ -91,11 +106,6 @@
 "name": "盘古",
 "type": 1,
 "url": "https://json.pangujiexi.com:12345/json.php?url="
-},
-{
-"name": "mika",
-"type": 0,
-"url": "https://mika.ovooa.com/api/player/?url=","ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视","RongXing","RX"]}
 },
 {"name":"duoduozy2","type":1,"url":"https://a.dxzj88.com/jxjx/dd.php?url=","ext":{"flag":["duoduozy"]}},
 {"name":"renrenmi2","type":1,"url":"https://a.dxzj88.com/jxrrm/jiami.php?url=","ext":{"flag":["renrenmi"]}},
@@ -116,10 +126,12 @@
 {"name":"leduotv","type":1,"url":"https://api.leduotv.com/wp-api/getvodurl.php?vid=","ext":{"flag":["leduo"]}},
 {"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url=","ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视"]}},
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
+{"name": "mika","type": 0,"url": "https://mika.ovooa.com/api/player/?url=","ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视","RongXing","RX"]}},
 {"name": "公主","type": 0, "url": "https://jx.blbo.cc:4433/?url="},
 {"name": "全民解析","type": 0,"url": "https://jx.quanmingjiexi.com/?url=" },
 {"name": "虾米", "type": 0, "url": "https://jx.xmflv.com/?url="  },
  { "name": "乐多", "type": 0,"url": "https://jx.zui.cm/?url=" },
+ { "name": "7080", "type": 0,"url": "https://7080.wang/jx/index.html?url=" },
 {
 "name": "BL",
 "type": 0,
