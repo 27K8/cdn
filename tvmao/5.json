@@ -14,6 +14,7 @@
 {"key":"csp_appysv2_优视影视","name":"优视影视(优)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.ysys.asia/lvdou_api.php/v1.vod"},
 {"key":"csp_appysv2_tvip","name":"tvip(优)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.tvip.cc/api.php/v1.vod"},
 {"key":"csp_appysv2_300看世界","name":"300看世界(优)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://300ys.xyz/mogai_api.php/v1.vod"},
+{"key":"csp_appysv2_奈菲迷","name":"奈菲迷","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://app.netflixmi.com/api.php/v1.vod"},
         
 {"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lezhutv.json"},
 {"key":"csp_xpath_lib","name":"LIBVIO(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lib.json"},
@@ -88,6 +89,11 @@
 "url": "https://jhpc.manduhu.com/j1217.php?url="
 },
 {
+"name": "奈菲迷",
+"type": 1,
+"url": "https://jiexiheyi.naifeimi.com/api/?key=WWBdFWHgw5HkfmOHR7&url="
+},
+{
 "name": "盘古",
 "type": 1,
 "url": "https://json.pangujiexi.com:12345/json.php?url="
@@ -97,20 +103,20 @@
 {"name":"renrenmi3","type":1,"url":"https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=","ext":{"flag":["renrenmi"]}},
 {"name":"250idc","type":1,"url":"https://v.2080kk.com/home/api?type=ys&uid=1308653&key=behnpstwxBCHJMQ029&url="},
 {"name":"蓝影","type":1,"url":"https://vip.nicefamily.club/api/?key=W3VmSonE0VCYTNmNyV&url="},
-{"name":"4","type":1,"url":"https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]}},
-{"name":"8","type":1,"url":"https://app.iminna.com/jx/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]}},
+{"name":"4","type":1,"url":"https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url="},
+{"name":"8","type":1,"url":"https://app.iminna.com/jx/?url="},
 {"name":"五一解析","type":1,"url":"https://json.5lp.net/json.php?url=","ext":{"flag":["ltnb","renrenmi","rx","rongxing"]}},
-{"name":"RongXingVR","type":1,"url":"https://vip.rongxingvr.top/api/?key=JJEZkZIhzkA4cUtBfR&url=","ext":{"flag":["renrenmi","rx","rongxing","mgtv","芒果","bilibili","哔哩哔哩","哔哩"]}},
-{"name":"jx36","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=9105801&key=huwxFGILMOQSTUZ679&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果"]}},
+{"name":"RongXingVR","type":1,"url":"https://vip.rongxingvr.top/api/?key=JJEZkZIhzkA4cUtBfR&url="},
+{"name":"jx36","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=9105801&key=huwxFGILMOQSTUZ679&url="},
 {"name":"J13","type":1,"url":"https://languangyingshiziyuan.1080zy.top/longtengzy.php/?url=","ext":{"flag":["ltnb"]}},
 {"name":"xfyun云","type":1,"url":"https://vip.xfyun.one/home/api?type=ys&uid=2581923&key=ceijpquvBMOSUVXZ23&url=","ext":{"flag":["xfyun"]}},
 {"name":"Wuduzy","type":1,"url":"https://aa.xkys.tv/json.php?url=","ext":{"flag":["wuduzy"]}},
 {"name":"LTRX","type":1,"url":"https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=","ext":{"flag":["rx"]}},
 {"name":"喵派对资源3","type":1,"url":"https://vip.aiaine.com/api/?key=fOWaGgFU45zlIjvbHI&url=","ext":{"flag":["ltnb","renrenmi"]}},
 {"name":"leduotv","type":1,"url":"https://api.leduotv.com/wp-api/getvodurl.php?vid=","ext":{"flag":["leduo"]}},
-{"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url=","ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视"]}},
+{"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url="},
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
-{"name": "mika","type": 0,"url": "https://mika.ovooa.com/api/player/?url=","ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","xigua","西瓜","letv","乐视","RongXing","RX"]}},
+{"name": "mika","type": 0,"url": "https://mika.ovooa.com/api/player/?url="},
 {"name": "公主","type": 0, "url": "https://jx.blbo.cc:4433/?url="},
 {"name": "全民解析","type": 0,"url": "https://jx.quanmingjiexi.com/?url=" },
 {"name": "虾米", "type": 0, "url": "https://jx.xmflv.com/?url="  },
