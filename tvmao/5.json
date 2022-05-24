@@ -39,7 +39,10 @@
 {"key": "csp_xpath_tvci","name": "大师兄(XPath)","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://kao.7080.wang/tvmao/xpath/tvci.json"},
 {"key": "csp_xpath_dm84","name": "动漫巴士(XPath)","type": 3,"api": "csp_XPath","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/dm84.json"},
 {"key":"csp_xpath_pianba","name":"片吧(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable": 0,"ext":"https://kao.7080.wang/tvmao/xpath/pianba.json"},
-
+{"key":"csp_xpath_Hdmoli","name":"Hdmoli(XPF)","type":3,"api":"csp_XPathHdmoli","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://fj365.ml/6/hdmoli.json"},
+{"key":"csp_xpath_egg","name":"蛋蛋(XPF)","type":3,"api":"csp_XPathEgg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://fj365.ml/6/dandan.json"},
+{"key":"csp_xpath_Gaze","name":"注视(XPF)","type":3,"api":"csp_XPathGaze","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://fj365.ml/6/gaze.json"},
+        
 {"key": "神速资源","name": "神速资源","type": 0,"api": "https://api.sszyapi.com/api.php/provide/vod/at/xml/"},
 {"key": "鱼乐资源","name": "鱼乐资源","type": 1, "api": "https://api.yulecj.com/api.php/provide/vod/"},
 {"key": "卧龙资源", "name": "卧龙资源", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/" },
