@@ -96,6 +96,7 @@
 {"name":"leduotv","type":1,"url":"https://api.leduotv.com/wp-api/getvodurl.php?vid=","ext":{"flag":["leduo"]}},
 {"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url="},
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
+{"name": "椰子解析","type": 0,"url": "https://jx.gbxy.net.cn/?url="},
 {"name": "mika","type": 0,"url": "https://mika.ovooa.com/api/player/?url="},
 {"name": "公主","type": 0, "url": "https://jx.blbo.cc:4433/?url="},
 {"name": "全民解析","type": 0,"url": "https://jx.quanmingjiexi.com/?url=" },
