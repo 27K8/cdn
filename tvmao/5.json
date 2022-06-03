@@ -20,7 +20,7 @@
 {"key":"csp_appysv2_tvip","name":"tvip(优)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.tvip.cc/api.php/v1.vod"},
 {"key":"csp_appysv2_300看世界","name":"300看世界(优)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://300ys.xyz/mogai_api.php/v1.vod"},
 {"key":"csp_appysv2_奈菲迷","name":"奈菲迷","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://app.netflixmi.com/api.php/v1.vod"},
-        
+
 {"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lezhutv.json"},
 {"key":"csp_xpath_lib","name":"LIBVIO(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lib.json"},
 {"key":"csp_biubiu_厂长资源-蓝光","name":"厂长资源-蓝光(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/YuanHsing/OneClickRun/raw/master/xb/厂长资源-蓝光.json"},
@@ -41,6 +41,8 @@
 {"key":"csp_biubiu_影视工厂","name":"影视工厂(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://fj365.ml/bb/影视工厂.json"},
 {"key":"csp_biubiu_骚火电影","name":"骚火电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://fj365.ml/bb/骚火电影.json"},
 {"key":"csp_biubiu_COKEMV","name":"COKEMV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://fj365.ml/bb/COKEMV.json"},
+{"key": "csp_xpath_netf","name": "网飞(XP)", "type": 3,"api": "csp_XPathFilter", "searchable": 1, "quickSearch": 1,"filterable": 1,"ext": "https://yangyang1975.coding.net/p/free/d/mao/git/raw/master/xpath/netflix.json" },
+{ "key": "csp_xpath_zmdy","name": "周末电影(XP)", "type": 3,"api": "csp_XPathFilter", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://yangyang1975.coding.net/p/free/d/mao/git/raw/master/xpath/zzzlike.json" },
         
 {"key": "神速资源","name": "神速资源","type": 0,"api": "https://api.sszyapi.com/api.php/provide/vod/at/xml/"},
 {"key": "鱼乐资源","name": "鱼乐资源","type": 1, "api": "https://api.yulecj.com/api.php/provide/vod/"},
