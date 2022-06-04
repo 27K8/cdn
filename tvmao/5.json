@@ -2,7 +2,6 @@
     "sites": [
 {"key": "七七","name": "七七","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1 },
 { "key": "LiteApple", "name": "小苹果","type": 3, "api": "csp_LiteApple","searchable": 1, "quickSearch": 1,"filterable": 1},
-{ "key": "360","name": "360","type": 3,"api": "csp_SP360","searchable": 1, "quickSearch": 1,"filterable": 1 },
 {"key": "奈落影院","name": "奈落影院","type": 3,"api": "csp_Newfii","searchable": 1,"quickSearch": 1,"filterable": 1},
 { "key": "在线之家","name": "在线之家", "type": 3, "api": "csp_Zxzj","searchable": 1, "quickSearch": 1, "filterable": 1},
 {"key": "小宝影院","name": "小宝影院", "type": 3,"api": "csp_Xiaoh","searchable": 1,"quickSearch": 1, "filterable": 1 },
@@ -11,7 +10,6 @@
         
 {"key":"csp_appysv2_九亿看看","name":"九亿看看","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://vod.9e03.com/lvdou_api.php/v1.vod"},
 {"key":"csp_appysv2_天空V2","name":"天空V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tkys.tv/xgapp.php/v2/"},
-{"key":"csp_appysv2_天空","name":"天空(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tkys.tv/xgapp.php/v1/"},
 {"key":"csp_appysv2_迪迪","name":"迪迪(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://dd88.icu:6080/xgapp.php/v2/"},
 {"key":"csp_appysv2_美剧虫","name":"美剧虫(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://meijuchong.com/api.php/v1.vod"},
 {"key":"csp_appysv2_钟特影视","name":"钟特影视(优)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://app.zteys.com/api.php/v1.vod"},
@@ -119,6 +117,7 @@
 ],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili",
          "renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy","xueren"],
+ "wallpaper": "https://picsum.photos/1280/720/?blur=10",
 "spider": "https://kao.7080.wang/tvmao/xpath/custom_spider62.jar",
 "ijk": [
 {
