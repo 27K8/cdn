@@ -65,7 +65,7 @@
 {
 "name": "redirect",
 "urls": [
-"proxy://do=live&type=txt&ext=aHR0cHM6Ly90YW5nc2FuOTk5OTkuZ2l0aHViLmlvL2xpdmUvTXR2LnR4dA=="
+"proxy://do=live&type=txt&ext=aHR0cHM6Ly9rZHMyLmNvZGluZy5uZXQvcC9rL2Qvay9naXQvcmF3L21hc3Rlci9tYW9saXZlLnR4dA=="
 ]
 }
 ]
@@ -105,31 +105,11 @@
 {"name": "虾米", "type": 0, "url": "https://jx.xmflv.com/?url="  },
  { "name": "乐多", "type": 0,"url": "https://jx.zui.cm/?url=" },
  { "name": "7080", "type": 0,"url": "https://7080.wang/jx/index.html?url=" },
-{
-"name": "BL",
-"type": 0,
- "url": "https://svip.bljiex.cc/?url="
-},
-{
-  "name": "电影888",
-  "type": 0,
-   "url": "https://dy8889.tv/dmplay/?url="
-  },
- {
-"name": "奈飞迷",
- "type": 0,
-"url": "https://qpsvip.naifeimi.com/?url="
- },
- {
-  "name": "陈罗",
-   "type": 0,
-  "url": "https://chenluo6.chenluo.org/chenluopg/?url="
-   },
-{
-"name": "麒麟",
-"type": 0,
-"url": "https://tv.qilin.best/jx/?url="
-},
+{"name": "BL","type": 0, "url": "https://svip.bljiex.cc/?url="},
+{  "name": "电影888", "type": 0,"url": "https://dy8889.tv/dmplay/?url="  },
+{"name": "奈飞迷", "type": 0,"url": "https://qpsvip.naifeimi.com/?url=" },
+{ "name": "陈罗", "type": 0, "url": "https://chenluo6.chenluo.org/chenluopg/?url=" },
+{"name": "麒麟","type": 0,"url": "https://tv.qilin.best/jx/?url="},
 {"name":"奇粹","type":0,"url":"http://bfq.blssv.com/?url="},
 {"name":"奇粹2","type":0,"url":"http://bfqhd.blssv.com/?url="},
 {"name":"zijian","type":0,"url":"https://jx.daiguaji.com/?url=","ext":{"flag":["zijian"]}},
@@ -139,7 +119,7 @@
 ],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili",
          "renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy","xueren"],
-"spider": "https://kao.7080.wang/tvmao/xpath/custom_spider62.jar",//https://tangsan99999.github.io/custom_spider.jar
+"spider": "https://kao.7080.wang/tvmao/xpath/custom_spider62.jar",
 "ijk": [
 {
 "group": "软解码",
