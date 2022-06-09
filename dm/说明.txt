@@ -1,0 +1,19 @@
+1.解压到网站根目录  
+2.修改播放器后台密码  config.php 以及json接口配置
+3.后台目录admin建议修改成别人不知道名字
+4.后台账号admin ，密码123456
+
+5.自动切换设置： 比如qq设置了url和spareurl     先走url   不行自动切spareurl
+
+
+此为苹果CMS 下一集js代码，其他cms可自行研究参考
+
+播放器跨域远程下一集代码：
+
+MacPlayer.Html = '<iframe border="0"mozallowfullscreen="mozallowfullscreen"msallowfullscreen="msallowfullscreen"oallowfullscreen="oallowfullscreen"webkitallowfullscreen="webkitallowfullscreen"  src="https://bilibili.ipian.net/?url='+MacPlayer.PlayUrl+'&next=//'+maccms.url+''+parent.MacPlayer.PlayLinkNext+'" height="'+MacPlayer.Height+'" width="100%" height="100%" marginWidth="0" frameSpacing="0" marginHeight="0" frameBorder="0" scrolling="no" vspale="0" noResize></iframe>';
+MacPlayer.Show();
+
+播放器本地下一集代码：
+
+MacPlayer.Html = '<iframe border="0"mozallowfullscreen="mozallowfullscreen"msallowfullscreen="msallowfullscreen"oallowfullscreen="oallowfullscreen"webkitallowfullscreen="webkitallowfullscreen"  src="'+maccms.path+'/static/player/dmplayers.php?url='+MacPlayer.PlayUrl+'&next='+maccms.path+''+parent.MacPlayer.PlayLinkNext+'" height="'+MacPlayer.Height+'" width="100%" height="100%" marginWidth="0" frameSpacing="0" marginHeight="0" frameBorder="0" scrolling="no" vspale="0" noResize></iframe>';
+MacPlayer.Show();
