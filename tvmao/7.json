@@ -54,7 +54,6 @@
 {"key": "鱼乐资源","name": "鱼乐资源","type": 1, "api": "https://api.yulecj.com/api.php/provide/vod/"},
 {"key": "卧龙资源", "name": "卧龙资源", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/" },
 {"key":"极速蓝光","name":"极速蓝光(优)","type":1,"api":"http://hs.zhuijuba.vip/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"wabc(腾讯直采)","name":"wabc(腾讯直采)(官)","type":1,"api":"https://wabc.ml/mao/1.php/provide/vod/","playUrl":"parse:parwix1","searchable":1,"quickSearch":1},
 {"key":"忆梦","name":"忆梦(官)","type":1,"api":"http://anltv.cn/api.php/provide/vod/","playUrl":"parse:parwix1","searchable":1,"quickSearch":1},
 {"key":"松鼠资源","name":"松鼠资源(切)","type":1,"api":"https://m3u8.songshuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"FOX资源","name":"FOX资源(切)","type":1,"api":"https://api.foxzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
