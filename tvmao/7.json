@@ -47,7 +47,9 @@
 {"key":"csp_大米星球","name":"大米(B)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.staticaly.com/gh/tvba/b/main/xb/a13-dmxq.js"},
 //{"key":"csp_biubiu_4kan电影网","name":"4kan电影网(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://testingcf.jsdelivr.net/gh/YuanHsing/OneClickRun/MeowXB/4kan电影网.json"},
 {"key":"csp_biubiu_融兴影视","name":"融兴影视(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/MeowXB/%E8%9E%8D%E5%85%B4%E5%BD%B1%E8%A7%86.json"},
-
+{"key":"csp_xpath_A33","name":"MTV🎸","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://gitea.com/99/x/raw/branch/main/mtv"},
+{"key":"csp_xpath_网络搜集库qiumi","name":"球迷🏀","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://gitea.com/99/x/raw/branch/main/516-qiumi.js"},
+    
 {"key": "神速资源","name": "神速资源","type": 0,"api": "https://api.sszyapi.com/api.php/provide/vod/at/xml/"},
 {"key": "鱼乐资源","name": "鱼乐资源","type": 1, "api": "https://api.yulecj.com/api.php/provide/vod/"},
 {"key": "卧龙资源", "name": "卧龙资源", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/" },
