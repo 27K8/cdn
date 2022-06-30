@@ -114,6 +114,7 @@
 {"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url="},
 {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
 {"name":"9ejiexi","type":1,"url":"https://vod.9e03.com/lvdou_api.php/Json/Index?list=0&from=xfyun&url=","ext":{"flag":["xfyun"]}},
+{"name":"影视大全","type":1,"url":"http://jx.yjhan.com:8090/home/api?type=ys&uid=188175&key=fghmqvAEFTVYZ03578&url=","ext":{"flag":["CL4K"]}},
 {"name": "椰子解析","type": 0,"url": "https://jx.gbxy.net.cn/?url="},
 {"name": "mika","type": 0,"url": "https://mika.ovooa.com/api/player/?url="},
 {"name": "公主","type": 0, "url": "https://jx.blbo.cc:4433/?url="},
