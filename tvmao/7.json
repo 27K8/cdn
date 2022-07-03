@@ -1,15 +1,19 @@
 {
   "sites": [
-{"key":"Kuaikan","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-//{"key":"LiteApple","name":"小苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"七七","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"奈落影院","name":"奈落影院","type":3,"api":"csp_Newfii","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"在线之家","name":"在线之家","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"小宝影院","name":"小宝影院","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"Libvio","name":"Libvio","type":3,"api":"csp_Lib","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"Auete","name":"Auete","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"Cokemv","name":"Cokemv","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"360","name":"360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_七七秒播","name":"七七秒播","type":3,"api":"csp_Kunyu77"       ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_在线之家","name":"在线之家","type":3,"api":"csp_Zxzj"          ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_焦炭影视","name":"焦炭影视","type":3,"api":"csp_Cokemv"        ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_奥特影视","name":"奥特影视","type":3,"api":"csp_Auete"         ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_官方资源","name":"官方资源","type":3,"api":"csp_SP360"         ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_厂长影视","name":"厂长影视","type":3,"api":"csp_CZSPP"         ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_不卡影视","name":"不卡影视","type":3,"api":"csp_Buka"          ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_爱看影视","name":"爱看影视","type":3,"api":"csp_IKan"          ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_快看影视","name":"快看影视","type":3,"api":"csp_Kuaikan"       ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_完美视频","name":"完美视频","type":3,"api":"csp_N0ys"          ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_哔哩专区","name":"哔哩专区","type":3,"api":"csp_BBB"           ,"searchable":0,"quickSearch":0,"filterable":1},
+{"key":"teyond_pc_相声小品","name":"相声小品","type":3,"api":"csp_Blixs"         ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_动物世界","name":"动物世界","type":3,"api":"csp_Blidw"         ,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"teyond_pc_戏曲专区","name":"戏曲专区","type":3,"api":"csp_Blixq"         ,"searchable":1,"quickSearch":1,"filterable":1},
       
 {"key":"csp_appysv2_九亿看看","name":"九亿看看","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://vod.9e03.com/lvdou_api.php/v1.vod"},
 {"key":"csp_appysv2_天空V2","name":"天空V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tkys.tv/xgapp.php/v2/"},
@@ -139,7 +143,7 @@
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili",
        "renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy","xueren"],
 "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-"spider": "https://27k8.coding.net/p/daohang/d/daohang/git/raw/main/tvmao/xpath/Tangsan99999.jar",
+"spider": "https://27k8.coding.net/p/daohang/d/daohang/git/raw/main/tvmao/xpath/2022.jar",
 "ijk":[
   {"group":"软解码","options":[
   {"category":4,"name":"opensles","value":"0"},
