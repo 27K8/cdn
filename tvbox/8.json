@@ -1,8 +1,8 @@
 {
 	//外链http://gg.gg/TVBOX-Pro-1
 	//外连2https://maoyingshi.cc/tvbox/%E4%BA%91%E6%98%9F%E6%97%A5%E8%AE%B0/tvbox4.json
-	//0712JAR
-	"spider":"https://27k8.coding.net/p/daohang/d/daohang/git/raw/main/tvmao/xpath/0712.jar?download=true",
+	//0712JAR,https://27k8.coding.net/p/daohang/d/daohang/git/raw/main/tvmao/xpath/0712.jar
+	"spider":"https://pan.css.lc/api/v3/file/get/23608/0712.jar?sign=KSoK6NuBBtc2PIDAYGVWm9ikJiRxB6ejJXYeizuHnYw%3D%3A0",
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL2ZyZWVkLnl1YW5oc2luZy5jZi90di9saXZlLnR4dA=="]}]}],
   "sites": [
 {"key": "Kunyu77","name": "👒七七","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1},
