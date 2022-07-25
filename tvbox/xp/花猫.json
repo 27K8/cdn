@@ -1,0 +1,36 @@
+{
+  "name": "花猫TV",
+  "url": "http://www.huamaotv.com",
+  "User": "空",
+  "shouye": "1",
+  "fenlei": "电影$/type/1-#连续剧$/type/2-#综艺$/type/3-#动漫$/type/4-#",
+  "houzhui": ".html",
+  "shifouercijiequ": "0",
+  "jiequqian": "空",
+  "jiequhou": "空",
+  "jiequshuzuqian": "class=\"stui-vodlist__item",
+  "jiequshuzuhou": "",
+  "tupianqian": "data-original=\"",
+  "tupianhou": "\"",
+  "biaotiqian": "title=\"",
+  "biaotihou": "\"",
+  "lianjieqian": "href=\"",
+  "lianjiehou": "\"",
+
+  //新版Biubiu参数：副标题 (不需要的话，就不填写或者删除副标题2个字段也可以。)
+  "fubiaotiqian": "pic-text\">",
+  "fubiaotihou": "",
+
+  "zhuangtaiqian": "年份：",
+  "zhuangtaihou": "",
+  "daoyanqian": "导演：",
+  "daoyanhou": "",
+  "zhuyanqian": "主演：",
+  "zhuyanhou": "",
+  "juqingqian": "简介：",
+  "juqinghou": "",
+  "bfbiaotiqian": ">",
+  "bfbiaotihou": "<",
+  "bflianjieqian": "href=\"",
+  "bflianjiehou": "\""
+}
