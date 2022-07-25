@@ -8,7 +8,7 @@
   "shifouercijiequ": "0",
   "jiequqian": "空",
   "jiequhou": "空",
-  "jiequshuzuqian": "lazyload",
+  "jiequshuzuqian": "stui-vodlist__thumb lazyload",
   "jiequshuzuhou": ">",
   "tupianqian": "data-original=\"",
   "tupianhou": "\"",
