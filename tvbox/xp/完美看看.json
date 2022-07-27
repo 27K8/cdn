@@ -1,0 +1,37 @@
+{
+  "name": "完美看看影视",
+  "url": "https://www.wanmeikk.film/",
+  "tihuan": "cnzz.com",
+  "User": "空",
+  "shouye": "1",
+  "fenlei": "电影$/category/1-#国产剧$/category/5-#欧美剧$/category/2-#韩剧$/category/3-#动漫$/category/6-#泰剧$/category/9-#纪录片$/category/10-", //列表的分类
+  "houzhui": ".html",
+  "shifouercijiequ": "0",
+  "jiequqian": "空",
+  "jiequhou": "空",
+  "jiequshuzuqian": "lazyload\"",
+  "jiequshuzuhou": "",
+  "tupianqian": "data-original=\"",
+  "tupianhou": "\"",
+  "biaotiqian": "title=\"",
+  "biaotihou": "\"",
+  "lianjieqian": "href=\"",
+  "lianjiehou": "\"",
+
+  //新版Biubiu参数：副标题 (不需要的话，就不填写或者删除副标题2个字段也可以。)
+  "fubiaotiqian": "text-right\">",
+  "fubiaotihou": "",
+
+  "zhuangtaiqian": "年份：",
+  "zhuangtaihou": "",
+  "daoyanqian": "导演：",
+  "daoyanhou": "",
+  "zhuyanqian": "主演：",
+  "zhuyanhou": "",
+  "juqingqian": "display: none;\">",
+  "juqinghou": "",
+  "bfbiaotiqian": ">",
+  "bfbiaotihou": "<",
+  "bflianjieqian": "href=\"",
+  "bflianjiehou": "\""
+}
