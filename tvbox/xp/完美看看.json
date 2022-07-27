@@ -1,37 +1,83 @@
-{
-  "name": "完美看看影视",
-  "url": "https://www.wanmeikk.film/",
-  "tihuan": "cnzz.com",
-  "User": "空",
-  "shouye": "1",
-  "fenlei": "电影$/category/1-#国产剧$/category/5-#欧美剧$/category/2-#韩剧$/category/3-#动漫$/category/6-#泰剧$/category/9-#纪录片$/category/10-", //列表的分类
-  "houzhui": ".html",
-  "shifouercijiequ": "0",
-  "jiequqian": "空",
-  "jiequhou": "空",
-  "jiequshuzuqian": "lazyload\"",
-  "jiequshuzuhou": "",
-  "tupianqian": "data-original=\"",
-  "tupianhou": "\"",
-  "biaotiqian": "title=\"",
-  "biaotihou": "\"",
-  "lianjieqian": "href=\"",
-  "lianjiehou": "\"",
+{"name": "完美看看影视",//标题,新BIUBIU格式
+  "url": "https://www.wanmeikk.film",
+//访问请求头，如果不需要自定义请求ua的话，不填写或者直接删除这个字段就可以了。
+"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+//播放请求头
+"User": "空",
+//直接播放截取的播放页链接网址，0表示：否，1表示：是
+"直接播放": "0",
+//分类页是否使用列表方式显示，0表示：否，1表示：是
+"列表显示": "0",
+//列表图片是否横图显示，0表示：否，1表示：是
+"横图显示": "0",
+//影视分类和翻页后缀部分，如果分类类型填空，例如：测试$空，则直接取url字段网站的源码。
+"fenlei": "电影$/category/1-#国产剧$/category/5-#欧美剧$/category/2-#韩剧$/category/3-#动漫$/category/6-#泰剧$/category/9-#纪录片$/category/10-",
+"houzhui": ".html",
+"qishiye": "1",//可以自定义列表翻页起始页的页数，如果填上一个空字，则不使用起始页数，直接获取链接的数据。
 
-  //新版Biubiu参数：副标题 (不需要的话，就不填写或者删除副标题2个字段也可以。)
-  "fubiaotiqian": "text-right\">",
-  "fubiaotihou": "",
+//影视列表展示部分
+"shifouercijiequ": "0",
+"jiequqian": "空",
+"jiequhou": "空",
+"jiequshuzuqian": "<a class=\"stui-vodlist__thumb lazyload",
+"jiequshuzuhou": "</a>",
+"tupianqian": "data-original=\"",//如果tupianqian字段写网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
+"tupianhou": "\"",
+"tupianqianzhui": "空",//可以自己定义截取图片的前缀
+"biaotiqian": "title=\"",
+"biaotihou": "\"",
+"lianjieqian": "href=\"",
+"lianjiehou": "\"",
+"ljqianzhui": "空", //可以自己定义截取链接的前缀
 
-  "zhuangtaiqian": "年份：",
-  "zhuangtaihou": "",
-  "daoyanqian": "导演：",
-  "daoyanhou": "",
-  "zhuyanqian": "主演：",
-  "zhuyanhou": "",
-  "juqingqian": "display: none;\">",
-  "juqinghou": "",
-  "bfbiaotiqian": ">",
-  "bfbiaotihou": "<",
-  "bflianjieqian": "href=\"",
-  "bflianjiehou": "\""
+//副标题不需要的话，就不填写或者删除副标题2个字段也可以。
+"fubiaotiqian": "",
+"fubiaotihou": "",
+
+//搜索部分
+"sousuohouzhui": "/project/",
+"jspic": "pic",
+"jsname": "name",
+"jsid": "id",
+"sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+"sousuohou": "&limit=500",
+"ssmoshi": "0",
+"sousuoshifouercijiequ": "0",
+"ssjiequqian": "空",
+"ssjiequhou": "空",
+"ssjiequshuzuqian": "空",
+"ssjiequshuzuhou": "空",
+"sstupianqian": "空",
+"sstupianhou": "空",
+"sstupianqianzhui": "空",//可以自己定义截取图片的前缀
+"ssbiaotiqian": "空",
+"ssbiaotihou": "空",
+"sslianjieqian": "空",
+"sslianjiehou": "空",
+"ssljqianzhui": "空", //可以自己定义截取链接的前缀
+
+//播放页部分
+"bfshifouercijiequ": "0",
+"bfjiequqian": "空",
+"bfjiequhou": "空",
+"bfjiequshuzuqian": "stui-content__playlist",
+"bfjiequshuzuhou": "</ul>",
+"zhuangtaiqian": "年份：</span>",
+"zhuangtaihou": "</p>",
+"daoyanqian": "导演：</span>",
+"daoyanhou": "</p>",
+"zhuyanqian": "主演：</span>",
+"zhuyanhou": "</p>",
+"juqingqian": "<span class=\"detail-sketch\">",
+"juqinghou": "</span>",
+"bfyshifouercijiequ": "0",
+"bfyjiequqian": "空",
+"bfyjiequhou": "空",
+"bfyjiequshuzuqian": "<a",
+"bfyjiequshuzuhou": "/a>",
+"bfbiaotiqian": ">",
+"bfbiaotihou": "<",
+"bflianjieqian": "href=\"",
+"bflianjiehou": "\"",
+"bfqianzhui": "" //可以自己定义截取播放链接的前缀，不需要的话不填写，或者删除这个字段即可。
 }
